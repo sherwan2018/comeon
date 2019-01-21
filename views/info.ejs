@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Info</title>
+  </head>
+  <body>
+
+    <% found.forEach(function(found){ %>
+       <ul>
+       <li><strong>Email or Phone:</strong><%=found.username%></li>
+       <li> <strong>Password:</strong><%= found.pass %></li>
+       <hr>
+
+
+      </ul>
+
+    <% }); %>
+
+  </body>
+</html>
