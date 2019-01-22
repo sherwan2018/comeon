@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var fs = require("fs");
 const PORT = process.env.PORT || 5000
-mongoose.connect("mongodb://localhost/info");
+mongoose.connect("mongodb://sherwan:mamjader10@ds261114.mlab.com:61114/info");
 app.set("view engine" , "ejs");
 app.use(bodyParser.urlencoded({ extended: true}));
 
